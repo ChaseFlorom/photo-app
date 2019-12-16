@@ -8,3 +8,11 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require_tree .
+
+$( document ).on('turbolinks:load', function() {
+    console.log("please just work")
+})
+
+$(document).on('ready turbolinks:load', function(){
+  console.log("3")  
+})

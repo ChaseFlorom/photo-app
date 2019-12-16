@@ -18,3 +18,12 @@ require("jquery")
 //
  const images = require.context('../images', true)
  const imagePath = (name) => images(name, true)
+ 
+ $(document).on('ready turbolinks:load', function(){
+   console.log("firing home");
+ })
+
+
+$( document ).on('turbolinks:load', function() {
+    console.log("please just work")
+})
