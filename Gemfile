@@ -13,6 +13,11 @@ gem 'devise-bootstrap-views'
 gem 'jquery'
 gem 'jquery-rails'
 gem 'stripe'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog-aws'
+
+
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
